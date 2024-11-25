@@ -13,10 +13,10 @@ int main(){
 	scanf("%d", &sayi);
 	
 	if (sayi<0){
-		printf("lütfen pozitif sayi giriniz.\n" );
+		printf("lÃ¼tfen pozitif sayi giriniz.\n" );
 		return 0;
 	}
-//	-while döngüsü ile bu þekilde						 -for döngüsü ile bu þekilde
+//	-while dÃ¶ngÃ¼sÃ¼ ile bu ÅŸekilde						 -for dÃ¶ngÃ¼sÃ¼ ile bu ÅŸekilde
 	while(i< sayi/2){									  for(i=2; i<=sayi/2; i++){														}
 		if(sayi%i == 0){								  	  if(sayi%i == 0){
 			printf("asal sayi olamaz.",sayi,i);					  printf("asal sayi olamaz.",sayi,i);
